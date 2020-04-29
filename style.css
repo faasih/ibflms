@@ -60,6 +60,21 @@
   position: relative;
 }
 
+.bg-img2 {
+  /* The image used */
+  background-image: url("images/doodle-1.png");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
 i.fa.fa-quote-left {
     margin-left: -15px;
     font-size: 10px;
@@ -85,9 +100,35 @@ i.fa.fa-quote-right {
     border-radius: 20px;
     font-size: 25px;
     font-weight: 600;
-    color: darkslategrey;
+    color: #355178;
     background-color: white;
     font-family: 'Montserrat' , sans-serif;
+}
+
+
+
+
+/*.customCard{
+width: 400px;
+}
+*/
+#record{
+  color: #355178;
+}
+
+#conduct{
+  color: orange;
+}
+
+#live{
+  color: #355178;
+}
+
+.querySession h5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #355178;
+  font-weight: 700;
 }
 
 
@@ -96,13 +137,9 @@ i.fa.fa-quote-right {
 
 
 
-
-
-
-
-
-
 /*ALL MEDIA QUERIES HERE*/
+
+/*PHONE STARTS*/
 
 @media (max-width: 576px) { 
 
@@ -123,8 +160,126 @@ i.fa.fa-quote-right {
        font-size: 18px;
     }
 
+.bg-img{
+background-image: url("images/mobile.png") !important;
+}
+
+.bg-img2{
+background-image: url("images/mobile-doodle.png") !important;
+}
+
+.slider {
+  display: none;
+}
+
+.querySession h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.laptopicon img{
+  width: 100%;
+}
+
+.assignment img {
+  width: 100%;
+}
 
  }
+
+
+/*PHONE END*/
+
+
+/*TABLET STARTS*/
+
+
+@media (min-width: 768px ) { 
+
+.slider {
+  display: none;
+}
+
+.card-title{
+  font-size: 1rem;
+}
+
+.card-text{
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.querySession h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.laptopicon img{
+  width: 100%;
+}
+
+.assignment img {
+  width: 100%;
+  margin-left: -30px;
+ }
+
+.assignment h5 {
+    margin-left: -40px;
+}
+
+
+ }
+
+
+ @media (min-width: 900px )
+ {
+  .laptopicon h5 {
+    padding-top: 50px !important;
+}
+
+.assignment h5 {
+    padding-top: 40px !important;
+    padding-right: 50px;
+}
+ }
+
+/* TABLET ENDS*/
+
+@media (min-width: 1200px) { 
+
+.laptopicon img{
+  width: 100%;
+}
+
+.assignment img{
+  width: 100%;
+}
+
+.laptopicon h5 {
+    padding-top: 100px !important;
+    margin-left: 90px;
+}
+
+.assignment h5 {
+    padding-top: 120px !important;
+    padding-right: 130px;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 1.3rem;
+    /* font-weight: 500; */
+}
+
+
+
+}
 
 
 /*ALL MEDIA QUERIES END HERE*/

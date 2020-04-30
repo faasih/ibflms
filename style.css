@@ -131,11 +131,79 @@ width: 400px;
   font-weight: 700;
 }
 
+.e-fee{
+  background-color: #355178;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.e-fee img{
+  width: 100%;
+  height: auto;
+ }
+
+.e-fee h5{
+  margin-top: 6%;
+    color: white;
+    font-size: 30px;
+    padding: 10px 5px 10px 20px;
+}
+
+.e-fee .btn
+{
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    margin-left: 3%;
+
+}
+
+.e-fee .btn:hover 
+{    
+  color: white;
+  background-color: #355178;
+  border: 1px white solid;
+}
+
+.team img{
+  width: 100%;
+}
+
+.team h5{
+    padding: 10px 10px 0px 10px;
+    color: #355178;
+    font-size: 20px;
+    margin-top: 95%;
+    font-weight: 800;
+  }
+
+ .team .h2{
+  padding-left: 0px;
+ } 
+
+.team .btn {
+    background-color: #355178;
+    color: white;
+    font-size: 0.7rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+}
+
+.team .btn:hover 
+{    
+  color: white;
+  background-color: orange;
+  border: 1px white solid;
+}
+
+/*CSS FOR CARDS STARTS*/
 
 
 
 
 
+
+
+/*CSS FOR CARDS ENDS*/
 
 /*ALL MEDIA QUERIES HERE*/
 
@@ -186,6 +254,26 @@ background-image: url("images/mobile-doodle.png") !important;
   width: 100%;
 }
 
+.e-fee h5{
+  margin-top: 0%;
+  font-size: 20px;
+}
+
+.e-fee .btn{
+  font-size: 13px;
+}
+
+.team h5{
+  margin-top: 1%;
+  font-size: 13px;
+}
+
+.team .btn {
+    font-size: 0.6rem;
+    font-weight: 800;
+}
+
+
  }
 
 
@@ -229,6 +317,20 @@ background-image: url("images/mobile-doodle.png") !important;
     margin-left: -40px;
 }
 
+.e-fee h5{
+  font-size: 25px;
+  margin-top: 20% !important;
+}
+
+.team h5 {
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 80%;
+  }
+
+  #btn-single{
+    margin-bottom: 10px;
+  }
 
  }
 
@@ -243,6 +345,8 @@ background-image: url("images/mobile-doodle.png") !important;
     padding-top: 40px !important;
     padding-right: 50px;
 }
+
+
  }
 
 /* TABLET ENDS*/
@@ -277,7 +381,24 @@ background-image: url("images/mobile-doodle.png") !important;
     /* font-weight: 500; */
 }
 
+.e-fee h5 {
+    font-size: 2.5rem;
+    padding-left: 0px;
+ }
 
+.e-fee .btn{
+  font-size: 1.5rem;
+  margin-left: 0%;
+} 
+
+.team h5{
+    margin-top: 95%;
+    font-size: 20px;
+   }
+
+ #btn-single{
+    margin-bottom: 0px;
+  }  
 
 }
 

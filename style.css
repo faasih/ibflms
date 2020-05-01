@@ -106,12 +106,6 @@ i.fa.fa-quote-right {
 }
 
 
-
-
-/*.customCard{
-width: 400px;
-}
-*/
 #record{
   color: #355178;
 }
@@ -127,6 +121,12 @@ width: 400px;
 .querySession h5{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
+  color: #355178;
+  font-weight: 700;
+}
+
+.querySessionMobile h5{
+  font-family: 'Montserrat', sans-serif;
   color: #355178;
   font-weight: 700;
 }
@@ -195,6 +195,49 @@ width: 400px;
   border: 1px white solid;
 }
 
+.blogs h5{
+    padding: 10px 10px 10px 10px;
+    font-size: 5rem;
+    letter-spacing: 16px;
+    font-weight: 800;
+    color: #335781;
+}
+
+#blog1 h5{
+  color: white;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#blog1{
+  background-color: #335178;
+  color: white;
+}
+
+#blog1 p{
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+    background-color: #335781;
+}
+
+footer h6{
+  color: orange;
+}
+
+footer p {
+    font-weight: 600;
+    color: white;
+}
+
+.footer-copyright{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 /*CSS FOR CARDS STARTS*/
 
     .nn {
@@ -233,10 +276,20 @@ width: 400px;
 }
 
 
+.carousel-controls{
+ position:relative; 
+  width:300px;
+  margin:0 auto;
+}
 
-
+.carousel-indicators{
+   top:0px; 
+}
 
 /*CSS FOR CARDS ENDS*/
+
+
+
 
 /*ALL MEDIA QUERIES HERE*/
 
@@ -278,6 +331,18 @@ background-image: url("images/mobile-doodle.png") !important;
     font-weight: 700;
 }
 
+.querySession{
+  display: none;
+}
+
+.querySessionMobile h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.querySessionMobile{
+  display: block !important;
+}
 
 .laptopicon img{
   width: 100%;
@@ -290,14 +355,16 @@ background-image: url("images/mobile-doodle.png") !important;
 .e-fee h5{
   margin-top: 0%;
   font-size: 20px;
+  margin-left: 30px;
 }
 
 .e-fee .btn{
-  font-size: 13px;
+font-size: 13px;
+margin-left: 40px;
 }
 
 .team h5{
-  margin-top: 1%;
+  margin-top: 5%;
   font-size: 13px;
 }
 
@@ -305,6 +372,17 @@ background-image: url("images/mobile-doodle.png") !important;
     font-size: 0.6rem;
     font-weight: 800;
 }
+
+footer p
+   {
+    padding: 5px 25px 5px 25px;
+    }
+
+.blogs h5 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    }
 
 
  }
@@ -336,7 +414,6 @@ background-image: url("images/mobile-doodle.png") !important;
     font-weight: 700;
 }
 
-
 .laptopicon img{
   width: 100%;
 }
@@ -353,7 +430,7 @@ background-image: url("images/mobile-doodle.png") !important;
 .e-fee h5{
   font-size: 25px;
   margin-top: 20% !important;
-}
+ }
 
 .team h5 {
     padding: 5px;
@@ -364,6 +441,12 @@ background-image: url("images/mobile-doodle.png") !important;
   #btn-single{
     margin-bottom: 10px;
   }
+
+  .blogs h5 {
+    font-size: 3rem;
+    letter-spacing: 10px;
+ }
+
 
  }
 

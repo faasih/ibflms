@@ -32,22 +32,22 @@
 .heading h2 {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 800;
 }
 
 .heading p {
   font-family: "Montserrat", sans-serif;
-
   color: orange;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .bg-img {
   /* The image used */
   background-image: url("images/slider2.jpg");
 
-  min-height: 380px;
+  min-height: 800px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -75,17 +75,17 @@
 
 i.fa.fa-quote-left {
   margin-left: -15px;
-  font-size: 10px;
+  font-size: 20px;
   display: inline-block;
   color: orange;
   position: absolute;
 }
 
 i.fa.fa-quote-right {
-  font-size: 10px;
+  font-size: 20px;
   color: orange;
   display: inline-block;
-  margin-left: 7px;
+  margin-left: 0px;
   position: absolute;
 }
 
@@ -190,9 +190,10 @@ i.fa.fa-quote-right {
 .blogs h5 {
   padding: 10px 10px 10px 10px;
   font-size: 5rem;
-  letter-spacing: 16px;
+  letter-spacing: 2px;
   font-weight: 800;
   color: #335781;
+  font-family: "Montserrat", sans-serif;
 }
 
 #blog1 h5 {
@@ -225,14 +226,14 @@ footer p {
 }
 
 .footer-copyright {
-  color: white;
+  color: #335781;
   font-weight: 600;
   font-size: 20px;
 }
 
 /*CSS FOR CARDS STARTS*/
 
-.nn {
+/*.nn {
   color: red;
 }
 .card {
@@ -248,10 +249,11 @@ footer p {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-}
-.card:hover {
+}*/
+
+.card-deck .card:hover {
   animation-name: anim;
-  animation-duration: 500ms;
+  animation-duration: 1000ms;
   animation-fill-mode: forwards;
 }
 @keyframes anim {
@@ -262,6 +264,8 @@ footer p {
     transform: scale(1);
   }
 }
+
+
 
 .testimonail .small {
   letter-spacing: 0.5px !important;
@@ -344,7 +348,7 @@ footer p {
   top: 0px;
 }
 
-/*CSS FOR CARDS ENDS*/
+/*CSS FOR CARDS ENDS
 
 /*FORM CSS STARTS*/
 
@@ -363,6 +367,7 @@ form label {
 .form-row .btn {
   background-color: orange;
   color: white;
+  border-radius: 20px;
   font-weight: 500;
   font-size: 2rem;
 }
@@ -386,7 +391,7 @@ form label {
   }
 
   .heading h2 {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .heading p {
@@ -404,6 +409,14 @@ form label {
   .bg-img2 {
     background-image: url("images/mobile-doodle.png") !important;
   }
+
+  i.fa.fa-quote-left {
+  font-size: 10px;
+}
+
+i.fa.fa-quote-right {
+  font-size: 10px;
+}
 
   .slider {
     display: none;
@@ -461,10 +474,15 @@ form label {
   }
 
   .blogs h5 {
-    font-size: 2.3rem;
-    font-weight: 700;
-    letter-spacing: 10px;
+    font-size: 3rem;
+    font-weight: 800;
+    text-decoration: underline;
   }
+
+  .form-row .btn {
+    border-radius: 13px;
+    font-size: 1rem;
+}
 }
 
 /*PHONE END*/
@@ -472,6 +490,23 @@ form label {
 /*TABLET STARTS*/
 
 @media (min-width: 768px) {
+    
+   .heading h2{
+    font-size: 50px; 
+   } 
+
+  .heading p {
+    font-size: 20px;
+  } 
+
+i.fa.fa-quote-right{
+  font-size: 15px;
+}
+
+i.fa.fa-quote-left{
+  font-size: 15px;
+}
+
   .slider {
     display: none;
   }
@@ -480,28 +515,35 @@ form label {
     font-size: 1rem;
   }
 
-  .card-text {
-    font-size: 0.8rem;
-    font-weight: 500;
+ .customCard p {
+    font-size: 15px;
+}
+
+  .laptopicon img 
+  {
+     width: 100%;
   }
 
-  .querySession h5 {
-    font-size: 25px;
-    font-weight: 700;
-  }
-
-  .laptopicon img {
-    width: 100%;
-  }
+ .laptopicon h5 
+ {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 25%;
+    padding-left: 17%;
+}
 
   .assignment img {
     width: 100%;
     margin-left: -30px;
   }
 
-  .assignment h5 {
-    margin-left: -40px;
-  }
+  .assignment h5 
+  {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 25%;
+    margin-left: -40%;
+}
 
   .e-fee h5 {
     font-size: 25px;
@@ -520,19 +562,37 @@ form label {
 
   .blogs h5 {
     font-size: 3rem;
-    letter-spacing: 10px;
+    letter-spacing: 2px;
+    margin-top: 30%;
   }
+
+form label {
+    font-size: 15px;
+ }
+
 }
 
 @media (min-width: 900px) {
-  .laptopicon h5 {
-    padding-top: 50px !important;
+ .laptopicon h5 {
+    padding-top: 35px !important;
+    margin-top: 20%;
+    padding-left: 0%;
+    margin-left: 35%;
+}
+
+  .blogs h5{
+    margin-top: 0%;
   }
 
   .assignment h5 {
     padding-top: 40px !important;
-    padding-right: 50px;
-  }
+    margin-left: 0%;
+    margin-top: 20%;
+      }
+
+    .assignment img{
+     margin-left: 0px; 
+    }  
 }
 
 @media (max-width: 1000px) {
@@ -546,6 +606,7 @@ form label {
 @media (min-width: 1200px) {
   .laptopicon img {
     width: 100%;
+    margin-left: 0%;
   }
 
   .assignment img {
@@ -553,14 +614,22 @@ form label {
   }
 
   .laptopicon h5 {
-    padding-top: 100px !important;
-    margin-left: 90px;
+    padding-top: 20px !important;
+    margin-left: 100px;
+    padding-left: 0%;
+    font-size: 25px;
   }
 
   .assignment h5 {
-    padding-top: 120px !important;
-    padding-right: 130px;
+    padding-top: 75px !important;
+    margin-top: 0%;
+    margin-left: 0%;
+   font-size: 25px;
   }
+
+  .assignment img {
+    margin-left: -50px;
+}
 
   .card-title {
     font-size: 1.75rem;
@@ -590,6 +659,8 @@ form label {
   #btn-single {
     margin-bottom: 0px;
   }
+
+
 }
 
 /*ALL MEDIA QUERIES END HERE*/

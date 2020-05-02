@@ -391,7 +391,7 @@ form label {
   }
 
   .heading h2 {
-    font-size: 30px;
+    font-size: 29px;
   }
 
   .heading p {
@@ -605,8 +605,21 @@ form label {
 
 @media (min-width: 1200px) {
   
+  i.fa.fa-quote-left{
+  font-size: 20px;
+}
+
+i.fa.fa-quote-right{
+  font-size: 20px;
+}
+
+
   .heading h2{
-    font-size: 80px;
+    font-size: 80px !important;
+  }
+
+  .heading p{
+    font-size: 30px;
   }
 
   .laptopicon img {

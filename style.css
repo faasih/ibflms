@@ -348,6 +348,7 @@ footer p {
   top: 0px;
 }
 
+
 /*CSS FOR CARDS ENDS
 
 /*FORM CSS STARTS*/
@@ -386,6 +387,7 @@ form label {
 /*PHONE STARTS*/
 
 @media (max-width: 576px) {
+
   .nav-link {
     font-size: 15px;
   }
@@ -404,6 +406,7 @@ form label {
 
   .bg-img {
     background-image: url("images/mobile.png") !important;
+    min-height: 660px;
   }
 
   .bg-img2 {
@@ -490,7 +493,10 @@ i.fa.fa-quote-right {
 /*TABLET STARTS*/
 
 @media (min-width: 768px) {
-    
+  
+  .bg-img{
+    min-height: 600px;
+  }  
    .heading h2{
     font-size: 50px; 
    } 
@@ -593,13 +599,13 @@ form label {
     .assignment img{
      margin-left: 0px; 
     }  
+
+    .bg-img{
+    min-height: 800px;
+  } 
 }
 
-@media (max-width: 1000px) {
-  .testimonail .container-fluid:hover .card:not(:hover) {
-    transform: scale(1);
-  }
-}
+
 
 /* TABLET ENDS*/
 

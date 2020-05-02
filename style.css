@@ -604,6 +604,11 @@ form label {
 /* TABLET ENDS*/
 
 @media (min-width: 1200px) {
+  
+  .heading h2{
+    font-size: 80px;
+  }
+
   .laptopicon img {
     width: 100%;
     margin-left: 0%;

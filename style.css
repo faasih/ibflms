@@ -32,7 +32,7 @@
 .heading h2 {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 800;
 }
 
@@ -621,7 +621,7 @@ i.fa.fa-quote-right{
 
 
   .heading h2{
-    font-size: 80px !important;
+    font-size: 60px !important;
   }
 
   .heading p{

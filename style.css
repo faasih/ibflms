@@ -181,9 +181,10 @@ i.fa.fa-quote-right {
 .team .btn {
   background-color: #355178;
   color: white;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   border-radius: 20px;
+  margin: 10px;
 }
 
 .team .btn:hover {
@@ -567,10 +568,6 @@ i.fa.fa-quote-left{
     margin-top: 80%;
   }
 
-  #btn-single {
-    margin-bottom: 10px;
-  }
-
   .blogs h5 {
     font-size: 3rem;
     letter-spacing: 2px;
@@ -610,9 +607,10 @@ form label {
   } 
 }
 
-
-
 /* TABLET ENDS*/
+
+/*DESKTOP STARTS*/
+
 
 @media (min-width: 1200px) {
   
@@ -642,19 +640,22 @@ i.fa.fa-quote-right{
     width: 100%;
   }
 
-  .laptopicon h5 {
-    padding-top: 20px !important;
+.laptopicon h5 {
+    padding-top: 50px !important;
     margin-left: 100px;
-    padding-left: 0%;
-    font-size: 25px;
-  }
+    padding-left: 2%;
+    font-size: 30px;
+}
 
-  .assignment h5 {
-    padding-top: 75px !important;
+.assignment h5 {
+    padding-top: 86px !important;
     margin-top: 0%;
     margin-left: 0%;
-   font-size: 25px;
-  }
+    font-size: 36px;
+    text-align: right;
+    padding-right: 30%;
+}
+
 
   .assignment img {
     margin-left: -50px;
@@ -681,15 +682,17 @@ i.fa.fa-quote-right{
   }
 
   .team h5 {
-    margin-top: 95%;
-    font-size: 20px;
+    margin-top: 70%;
+    font-size: 40px;
   }
 
   #btn-single {
     margin-bottom: 0px;
   }
 
-
 }
+
+/*DESKTOP ENDS*/
+
 
 /*ALL MEDIA QUERIES END HERE*/

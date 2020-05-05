@@ -32,15 +32,15 @@
 .heading h2 {
   font-family: "Montserrat", sans-serif;
   color: white;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 800;
 }
 
 .heading p {
   font-family: "Montserrat", sans-serif;
   color: orange;
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .bg-img {
@@ -74,7 +74,7 @@
 }
 
 i.fa.fa-quote-left {
-  margin-left: -15px;
+  margin-left: -30px;
   font-size: 20px;
   display: inline-block;
   color: orange;
@@ -85,7 +85,7 @@ i.fa.fa-quote-right {
   font-size: 20px;
   color: orange;
   display: inline-block;
-  margin-left: 0px;
+  margin-left: 6px;
   position: absolute;
 }
 
@@ -97,7 +97,7 @@ i.fa.fa-quote-right {
   border-radius: 20px;
   font-size: 25px;
   font-weight: 600;
-  color: #355178;
+  color: orange;
   background-color: white;
   font-family: "Montserrat", sans-serif;
 }
@@ -193,29 +193,14 @@ i.fa.fa-quote-right {
   border: 1px white solid;
 }
 
-.blogs h5 {
-  padding: 10px 10px 10px 10px;
-  font-size: 5rem;
-  letter-spacing: 2px;
-  font-weight: 800;
-  color: #335781;
-  font-family: "Montserrat", sans-serif;
-}
 
-#blog1 h5 {
+#heading{
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Quicksand", sans-serif;
   color: white;
-  text-decoration: underline;
-  font-weight: 600;
-  font-size: 2rem;
-}
+  background-color: #335781;
 
-#blog1 {
-  background-color: #335178;
-  color: white;
-}
-
-#blog1 p {
-  padding: 10px 10px 10px 10px;
 }
 
 footer {
@@ -232,30 +217,14 @@ footer p {
 }
 
 .footer-copyright {
-  color: #335781;
+  color: white;
   font-weight: 600;
   font-size: 20px;
+  background-color: orange;
+  font-family: "Quicksand", sans-serif;
 }
 
 /*CSS FOR CARDS STARTS*/
-
-/*.nn {
-  color: red;
-}
-.card {
-  text-align: center;
-  background-color: #f7f8fa;
-  box-shadow: 0px 0px 10px 5px #bac7db;
-}
-
-.card-title {
-  color: #17a2b8;
-}
-.card-img-top {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-}*/
 
 .card-deck .card:hover {
   animation-name: anim;
@@ -271,10 +240,28 @@ footer p {
   }
 }
 
+.features .card {
+  border-radius: 20px !important;
+  transition: 0.8s;
+  border: none;
+   font-family: "Montserrat", sans-serif;
+}
 
 
-.testimonail .small {
-  letter-spacing: 0.5px !important;
+.price-cards .card{
+  background-color: #335781;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.price-cards .card h5{
+  font-size: 20px;
+}
+
+.price-cards .card p{
+  font-size: 15px;
+  padding: 5px 10px 5px 10px;
 }
 
 .card-header .testimonail img {
@@ -286,74 +273,45 @@ footer p {
   top: -50%;
 }
 
+
 .testimonail .card {
-  border-radius: 20px !important;
-  box-shadow: 2px 2px 5px 0px rgb(100, 108, 170);
   transition: 0.8s;
+  height: auto;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
 }
+
 
 .testimonail .card-header {
   border-radius: 20px !important;
-}
-
-.testimonail .card-footer {
-  border-radius: 20px !important;
-}
-
-.testimonail hr {
-  background-color: rgb(146, 154, 236);
-  border: 1px solid;
-  border-radius: 20px;
-  color: rgb(146, 154, 236);
-  height: 5px;
-  width: 70px !important;
 }
 
 .testimonail .bold {
   font-weight: 500;
 }
 
-.testimonail .profile-pic {
-  margin-bottom: -5px !important;
-}
-
-.testimonail .quotes {
-  position: relative;
-  top: -10px;
-}
-
-.testimonail .quotes-down {
-  position: relative;
-  top: -4 px;
-}
-
 .testimonail .fa {
   color: rgb(174, 178, 219);
   cursor: pointer;
+   font-size: 20px;
 }
 
-.testimonail .card-footer .fa {
-  font-size: 20px !important;
+i.fa.fa-chevron-left {
+    font-size: 30px;
 }
 
-.testimonail .name {
-  margin-top: -50px !important;
+i.fa.fa-chevron-right {
+    font-size: 30px;
 }
 
 .testimonail .container-fluid:hover .card:not(:hover) {
   transform: scale(0.9);
 }
 
-.carousel-controls {
-  position: relative;
-  width: 300px;
-  margin: 0 auto;
+.blogs .card {
+  color: white;
+  background-color: orange;
 }
-
-.carousel-indicators {
-  top: 0px;
-}
-
 
 /*CSS FOR CARDS ENDS
 
@@ -403,7 +361,8 @@ form label {
   }
 
   .heading p {
-    font-size: 17px;
+    font-size: 15px;
+    padding: 0px 20px 0px 20px;
   }
 
   .heading a {
@@ -421,10 +380,12 @@ form label {
 
   i.fa.fa-quote-left {
   font-size: 10px;
+  margin-left: -15px;
 }
 
 i.fa.fa-quote-right {
   font-size: 10px;
+  margin-left: 3px;
 }
 
   .slider {
@@ -484,16 +445,12 @@ i.fa.fa-quote-right {
     padding: 5px 25px 5px 25px;
   }
 
-  .blogs h5 {
-    font-size: 3rem;
-    font-weight: 800;
-    text-decoration: underline;
-  }
 
   .form-row .btn {
     border-radius: 13px;
     font-size: 1rem;
 }
+
 }
 
 /*PHONE END*/
@@ -506,7 +463,7 @@ i.fa.fa-quote-right {
     min-height: 600px;
   }  
    .heading h2{
-    font-size: 50px; 
+    font-size: 40px; 
    } 
 
   .heading p {
@@ -568,11 +525,6 @@ i.fa.fa-quote-left{
     margin-top: 80%;
   }
 
-  .blogs h5 {
-    font-size: 3rem;
-    letter-spacing: 2px;
-    margin-top: 30%;
-  }
 
 form label {
     font-size: 15px;
@@ -588,9 +540,7 @@ form label {
     margin-left: 35%;
 }
 
-  .blogs h5{
-    margin-top: 0%;
-  }
+
 
   .assignment h5 {
     padding-top: 40px !important;
@@ -624,11 +574,11 @@ i.fa.fa-quote-right{
 
 
   .heading h2{
-    font-size: 60px !important;
+    font-size: 50px !important;
   }
 
   .heading p{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .laptopicon img {
@@ -682,8 +632,8 @@ i.fa.fa-quote-right{
   }
 
   .team h5 {
-    margin-top: 70%;
-    font-size: 40px;
+    margin-top: 90%;
+    font-size: 20px;
   }
 
   #btn-single {

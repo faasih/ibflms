@@ -1,630 +1,803 @@
 <html lang="en" class="full-height">
 
 <head>
-  <title>IBF-LMS</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="images/icon.png" type="image/gif" sizes="10 x 10">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css"
-    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="dist/css/bootstrap.min.css">
-  <link href="fontawesome-free-5.13.0-web/css/fontawesome.css" rel="stylesheet">
-  <link href="fontawesome-free-5.13.0-web/css/brands.css" rel="stylesheet">
-  <link href="ibflms/fontawesome-free-5.13.0-web/css/solid.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:500i,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:500i,600,800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.comcss2?family=Montserrat:wght@900&family=Quicksand:wght@700&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+    <title>IBF-LMS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="10 x 10">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link href="fontawesome-free-5.13.0-web/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome-free-5.13.0-web/css/brands.css" rel="stylesheet">
+    <link href="ibflms/fontawesome-free-5.13.0-web/css/solid.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500i,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500i,600,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.comcss2?family=Montserrat:wght@900&family=Quicksand:wght@700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
+    <!-- HEADER STARTS -->
+    <div class="bg-img">
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                <a class="navbar-brand mt-2" href="#"><img src="images/test-logo.png"
+                        style="height: 50px; width: 50px;"></a>
+                <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse mt-2" id="navbarContent">
+                    <ul class="navbar-nav my-auto mr-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="teacher.html">Teacher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="school.html">
+                                school / institution
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testing.html">
+                                testing
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled list-inline ml-auto" id="navbarContent">
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="btn-floating  mx-0 fa fa-whatsapp">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="btn-floating mx-0 fa fa-facebook">
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" target="_blank" class="btn-floating mx-0 fa fa-instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+
+            <div class="heading text-center">
+
+                <h2 class="px-5 pt-5 pb-2" style="margin-top: 10%;"><i class="fa fa-quote-left fa-fw"></i>Starting a
+                    Digital Academy<br>was never so
+                    easy!<i class="fa fa-quote-right fa-fw"></i></h2>
+                <p>Expand your boundaries and reach the global level of education!</p>
+                <a class="btn not-allowed mt-2 mb-5" onclick="return false;" href="#" role="button">Start Your 7 Day
+                    <strong>Free
+                        Trial</strong></a>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- HEADER ENDSS -->
 
 
-  <div class="bg-img">
     <div class="container-fluid">
+        <!-- MAIN CONTAINER FLUID -->
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <a class="navbar-brand mt-2" href="#"><img src="images/test-logo.png" style="height: 50px; width: 50px;"></a>
-        <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarContent"
-          aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="bg-img2">
+            <div class="container">
 
-        <div class="collapse navbar-collapse mt-2" id="navbarContent">
-          <ul class="navbar-nav my-auto mr-auto text-uppercase">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="teacher.html">Teacher</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="school.html">
-                school / institution
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="testing.html">
-                testing
-              </a>
-            </li>
-          </ul>
-          <ul class="list-unstyled list-inline ml-auto" id="navbarContent">
-            <li class="list-inline-item">
-              <a href="#" target="_blank" class="btn-floating  mx-0 fa fa-whatsapp">
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank" class="btn-floating mx-0 fa fa-facebook">
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#" target="_blank" class="btn-floating mx-0 fa fa-instagram">
-              </a>
-            </li>
-          </ul>
-        </div>
-
-      </nav>
-
-      <div class="heading text-center">
-
-        <h2 class="px-5 pt-5 pb-2" style="margin-top: 10%;"><i class="fa fa-quote-left fa-fw"></i>Starting a Digital Academy<br>was never so
-          easy!<i class="fa fa-quote-right fa-fw"></i></h2>
-        <p>Expand your boundaries and reach the global level of education!</p>
-        <a class="btn not-allowed mt-2 mb-5" onclick="return false;" href="#" role="button">Start Your 7 Day <strong>Free
-            Trial</strong></a>
-
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="container-fluid bg-img2">
-    
-
-
-  <div class="container">
-    
-      <div class="slider mt-5 pt-5 mb-5 pb-5" style="display: none;">
-        <div class="row d-flex text-center">
-
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <img src="images/key-icon.png">
-          </div>
-
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <img src="images/key-icon.png">
-          </div>
-
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <img src="images/key-icon.png">
-          </div>
-
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <img src="images/key-icon.png">
-          </div>
-
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <img src="images/key-icon.png">
-          </div>
-
-          <div class="col-sm-2 col-md-2 col-lg-2">
-            <img src="images/key-icon.png">
-          </div>
-
-        </div>
-      </div>
-      
-        <div class="features mb-5">
-         
-       <div class="row mt-5 justify-content-center">
-        <div class="card-deck ">
-          <div class="card pb-3">
-            <img class="card-img-top" src="images/key-icon1.png" alt="Card image cap">
-            <div class="card-body text-center ">
-              <h5 class="card-title text-uppercase">recorded classes</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            </div>
-          </div>
-          <div class="card pb-3">
-            <img class="card-img-top" src="images/key-icon.png" alt="Card image cap">
-            <div class="card-body text-center ">
-              <h5 class="card-title text-uppercase">conduct live classes</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            </div>
-          </div>
-          <div class="card pb-3">
-            <img class="card-img-top" src="images/key-icon3.png" alt="Card image cap">
-            <div class="card-body text-center ">
-              <h5 class="card-title text-uppercase">live sessions</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        </div>
-     
-   
-
-      <div class="querySession mt-5">
-        <div class="row laptopicon">
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <h5 class="text-uppercase">take live query session </h5>
-          </div>
-
-          
-          <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
-            <img src="images/icon1.png" alt="Laptop">
-          </div>
-          
-        </div>
-        
-        <div class="row assignment">
-          
-          <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
-            <img src="images/icon2.png" alt="Laptop">
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <h5 class="text-uppercase">issue and submit assignments with ease</h5>
-          </div>
-        </div>
-
-        <div class="row laptopicon">
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <h5 class="text-uppercase">premium exam proctoring service </h5>
-          </div>
-
-          
-          <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
-            <img src="images/icon3.png" alt="Laptop">
-          </div>
-          
-        </div>
-
-             <div class="row assignment">
-          
-          <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
-            <img src="images/icon-4.png" alt="Laptop">
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <h5 class="text-uppercase">conduct text and exams</h5>
-          </div>
-        </div>
-
-        <div class="row laptopicon">
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <h5 class="text-uppercase">high end video security & encryption </h5>
-          </div>
-
-          
-          <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
-            <img src="images/icon-5.png" alt="Laptop">
-          </div>
-          
-        </div>
-      </div>
-   
-
-
-    <div class="querySessionMobile bg-img2" style="display: none;">
-
-      <div class="row laptopicon">
-        <div class="col-sm-2 col-md-1 col-lg-1">
-        </div>
-        <div class="col-sm-4 col-md-3 col-lg-4">
-          <h5 class="text-uppercase mt-1 pl-1">take live query session </h5>
-        </div>
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
-          <img src="images/icon1.png" alt="Laptop">
-        </div>
-        <div class="colsm-2 col-md-2 col-lg-1">
-        </div>
-      </div>
-
-      <div class="row laptopicon">
-        <div class="col-sm-2 col-md-1 col-lg-1">
-        </div>
-        <div class="col-sm-4 col-md-3 col-lg-4">
-          <h5 class="text-uppercase mt-1 pl-1">issue and submit assignments with ease</h5>
-        </div>
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
-          <img src="images/icon2.png" alt="Laptop">
-        </div>
-        <div class="colsm-2 col-md-2 col-lg-1">
-        </div>
-      </div>
-
-      <div class="row laptopicon">
-        <div class="col-sm-2 col-md-1 col-lg-1">
-        </div>
-        <div class="col-sm-4 col-md-3 col-lg-4">
-          <h5 class="text-uppercase mt-1 pl-1">premium exam proctoring service </h5>
-        </div>
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
-          <img src="images/icon3.png" alt="Laptop">
-        </div>
-        <div class="colsm-2 col-md-2 col-lg-1">
-        </div>
-      </div>
-
-      <div class="row laptopicon">
-        <div class="col-sm-2 col-md-1 col-lg-1">
-        </div>
-        <div class="col-sm-4 col-md-3 col-lg-4">
-          <h5 class="text-uppercase mt-1 pl-1">conduct test and exams</h5>
-        </div>
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
-          <img src="images/icon-4.png" alt="Laptop">
-        </div>
-        <div class="colsm-2 col-md-2 col-lg-1">
-        </div>
-      </div>
-
-      <div class="row laptopicon">
-        <div class="col-sm-2 col-md-1 col-lg-1">
-        </div>
-        <div class="col-sm-4 col-md-3 col-lg-4">
-          <h5 class="text-uppercase mt-1 pl-1">high end video security & encryption</h5>
-        </div>
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
-          <img src="images/icon-5.png" alt="Laptop">
-        </div>
-        <div class="colsm-2 col-md-2 col-lg-1">
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-
-
-
-  <div class="bg-img2">
-      <div class="container-fluid" style="padding-right: 0px !important; padding-left: 0px !important;">
-      <div class="e-fee"> 
-      <div class="row" style="margin-right: 0px !important">
-
-        <div class="col-sm-5 col-md-6 col-lg-6">
-          <img class="" src="images/tablet.png">
-        </div>
-
-
-        <div class="col-sm col-md-5 col-lg-6">
-          <h5 class="text-uppercase mt-3">e-fee collection service<br> via swiftpay360 </h5>
-          <a class="btn not-allowed text-uppercase mb-1" onclick="return false;" href="#"
-            role="button">www.swiftpay360.com</a>
-        </div>
-
-        </div>
-      </div>
-    </div>
-  
-    <div class="container-fluid">
-    <div class="team mt-5 text-center text-uppercase">
-      <div class="row">
-        <div class="col-sm col-md-3 col-lg-3">
-          <h5>setup your online classroom today</h5>
-          <a class="btn not-allowed" id="btn-single" onclick="return false;" href="#" role="button">single teacher</a>
-          <a class="btn not-allowed" onclick="return false;" href="#" role="button">for school / institute</a>
-        </div>
-
-        <div class="col-sm col-md-6 col-lg-6 img-responsive">
-          <img src="images/team.png" style="width: 100%;">
-        </div>
-
-        <div class="col-sm col-md-3 col-lg-3">
-          <h5 class="h2"> create your very own personalized class</h5>
-          <a class="btn  not-allowed" onclick="return false;" href="#" role="button">show demo</a>
-        </div>
-
-      </div>
-    </div>
-  
-
-  
-
-    <!--   CARDS STARTS -->
-
-     <div class="container">
-      <div class="price-cards">
-       <div class="row mt-5 justify-content-center">
-        <div class="card-deck text-center">
-          <div class="card" >
-            <img class="card-img-top" src="images/icon1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 style="font-weight: 700;" class="card-title text-center text-uppercase">Early-Bird Discount</h5>
-              <p style="font-weight: 400;" class="card-text">We offer this course for, PKR 2000 per month. Free mock-tests and unlimited queries answered.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/icon2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 style="font-weight: 700;" class="card-title text-center text-uppercase">Regular Offer</h5>
-              <p style="font-weight: 400;" class="card-text">This costs you around PKR 3000 per month. Free mock-tests and unlimited queries answered.</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/icon3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 style="font-weight: 700;" class="card-title text-uppercase text-center">Quarterly Offer</h5>
-              <p style="font-weight: 400;" class="card-text">This will cost you PKR 8000 for 3 months. Free mock-tests and unlimited queries answered.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  
-    <!-- CARDS END -->
-
-<!-- TESTIMONIALS STARTS -->
-  <!--Carousel Wrapper Starts-->
-<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-<h5 id="heading" class="text-uppercase text-center mt-5">testimonials</h5>
-
-  <div class="controls-top text-center mb-5 mt-5">
-    <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
-    <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
-        class="fa fa-chevron-right"></i></a>
-  </div>
-
-  <!--Slides-->
-  <div class="carousel-inner card-deck" role="listbox">
-
-    <!--First slide-->
-    <div class=" testimonial carousel-item active">
-
-          <div class="col-md-4" style="float:left">
-            <div class="card mb-5" style="cursor: pointer;">
-                 <div class="card-header bg-white text-center border-0 ">
-                  <div class="row justify-content-center ">
-                    <div class="col"> <img class="align-self-center text-center rounded-circle outside img-fluid" src="images/test-logo.png" width="110" height="110"> </div>
-                  </div>
-                  <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                <div class="features mb-5">
+                    <div class="row mt-5 justify-content-center">
+                        <div class="card-deck ">
+                            <div class="card pb-3">
+                                <img class="card-img-top" src="images/key-icon1.png" alt="Card image cap">
+                                <div class="card-body text-center ">
+                                    <h5 class="card-title text-uppercase">recorded classes</h5>
+                                    <p class="card-text">Some example text some example text. John Doe is an architect
+                                        and engineer</p>
+                                </div>
+                            </div>
+                            <div class="card pb-3">
+                                <img class="card-img-top" src="images/key-icon.png" alt="Card image cap">
+                                <div class="card-body text-center ">
+                                    <h5 class="card-title text-uppercase">conduct live classes</h5>
+                                    <p class="card-text">Some example text some example text. John Doe is an architect
+                                        and engineer</p>
+                                </div>
+                            </div>
+                            <div class="card pb-3">
+                                <img class="card-img-top" src="images/key-icon3.png" alt="Card image cap">
+                                <div class="card-body text-center ">
+                                    <h5 class="card-title text-uppercase">live sessions</h5>
+                                    <p class="card-text">Some example text some example text. John Doe is an architect
+                                        and engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body text-center justify-content-center">
-               <h5 class="card-title text-uppercase">MR ABC</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+
             </div>
-          </div>
         </div>
 
-        <div class="col-md-4" style="float:left">
-          <div class="card mb-5" style="cursor: pointer;">
-              <div class="card-header bg-white text-center border-0 ">
-                  <div class="row justify-content-center ">
-                    <div class="col"> <img class="align-self-center text-center rounded-circle outside img-fluid" src="images/test-logo.png" width="110" height="110"> </div>
-                  </div>
-                  <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+
+
+
+        <div class="querySession mt-5">
+            <div class="bg-img3">
+                <div class="container">
+                    <div class="row laptopicon">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <h5 class="text-uppercase">take live query session </h5>
+                        </div>
+
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
+                            <img src="images/icon1.png" alt="Laptop">
+                        </div>
+
+                    </div>
+
+                    <div class="row assignment">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
+                            <img src="images/icon2.png" alt="Laptop">
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <h5 class="text-uppercase">issue and submit assignments with ease</h5>
+                        </div>
+                    </div>
+
+                    <div class="row laptopicon">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <h5 class="text-uppercase">premium exam proctoring service </h5>
+                        </div>
+
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
+                            <img src="images/icon3.png" alt="Laptop">
+                        </div>
+
+                    </div>
+
+                    <div class="row assignment">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
+                            <img src="images/icon-4.png" alt="Laptop">
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <h5 class="text-uppercase">conduct text and exams</h5>
+                        </div>
+                    </div>
+
+                    <div class="row laptopicon">
+
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <h5 class="text-uppercase">high end video security & encryption </h5>
+                        </div>
+
+
+                        <div class="col-sm-6 col-md-6 col-lg-6 mb-5">
+                            <img src="images/icon-5.png" alt="Laptop">
+                        </div>
+
+                    </div>
                 </div>
-                <div class="card-body text-center justify-content-center">
-               <h5 class="card-title text-uppercase">MR ABC</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
             </div>
-          </div>
-        </div>
 
-        <div class="col-md-4" style="float:left">
-          <div class="card mb-5" style="cursor: pointer;">
-              <div class="card-header bg-white text-center border-0 ">
-                  <div class="row justify-content-center ">
-                    <div class="col"> <img class="align-self-center text-center rounded-circle outside img-fluid" src="images/test-logo.png" width="110" height="110"> </div>
-                  </div>
-                  <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+
+            <div class="querySessionMobile bg-img2" style="display: none;">
+
+                <div class="row laptopicon">
+                    <div class="col-sm-2 col-md-1 col-lg-1">
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-4">
+                        <h5 class="text-uppercase mt-1 pl-1">take live query session </h5>
+                    </div>
+
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
+                        <img src="images/icon1.png" alt="Laptop">
+                    </div>
+                    <div class="colsm-2 col-md-2 col-lg-1">
+                    </div>
                 </div>
-                <div class="card-body text-center justify-content-center">
-               <h5 class="card-title text-uppercase">MR ABC</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            </div>
-          </div>
-        </div>
 
+                <div class="row laptopicon">
+
+                    <div class="col-sm-2 col-md-1 col-lg-1">
+                    </div>
+
+                    <div class="col-sm-4 col-md-3 col-lg-4">
+                        <h5 class="text-uppercase mt-1 pl-1">issue and submit assignments with ease</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
+                        <img src="images/icon2.png" alt="Laptop">
+                    </div>
+
+                    <div class="colsm-2 col-md-2 col-lg-1">
+                    </div>
+
+                </div>
+
+                <div class="row laptopicon">
+                    <div class="col-sm-2 col-md-1 col-lg-1">
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-4">
+                        <h5 class="text-uppercase mt-1 pl-1">premium exam proctoring service </h5>
+                    </div>
+
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
+                        <img src="images/icon3.png" alt="Laptop">
+                    </div>
+                    <div class="colsm-2 col-md-2 col-lg-1">
+                    </div>
+                </div>
+
+                <div class="row laptopicon">
+                    <div class="col-sm-2 col-md-1 col-lg-1">
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-4">
+                        <h5 class="text-uppercase mt-1 pl-1">conduct test and exams</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
+                        <img src="images/icon-4.png" alt="Laptop">
+                    </div>
+                    <div class="colsm-2 col-md-2 col-lg-1">
+                    </div>
+                </div>
+
+                <div class="row laptopicon">
+                    <div class="col-sm-2 col-md-1 col-lg-1">
+                    </div>
+                    <div class="col-sm-4 col-md-3 col-lg-4">
+                        <h5 class="text-uppercase mt-1 pl-1">high end video security & encryption</h5>
+                    </div>
+
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 mb-5">
+                        <img src="images/icon-5.png" alt="Laptop">
+                    </div>
+                    <div class="colsm-2 col-md-2 col-lg-1">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
     </div>
-    <!--/.First slide-->
 
-    <!--Second slide-->
-    <div class="carousel-item">
 
-    <div class="col-md-4" style="float:left">
-            <div class="card mb-5" style="cursor: pointer;">
-                 <div class="card-header bg-white text-center border-0 ">
-                  <div class="row justify-content-center ">
-                    <div class="col"> <img class="align-self-center text-center rounded-circle outside img-fluid" src="images/test-logo.png" width="110" height="110"> </div>
-                  </div>
-                  <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+
+    <div class="container-fluid" style="padding-right: 0px !important; padding-left: 0px !important;">
+        <div class="e-fee">
+            <div class="row" style="margin-right: 0px !important">
+
+                <div class="col-md-2 col-lg-2">
                 </div>
-                <div class="card-body text-center justify-content-center">
-               <h5 class="card-title text-uppercase">MR ABC</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-4" style="float:left">
-          <div class="card mb-5" style="cursor: pointer;">
-              <div class="card-header bg-white text-center border-0 ">
-                  <div class="row justify-content-center ">
-                    <div class="col"> <img class="align-self-center text-center rounded-circle outside img-fluid" src="images/test-logo.png" width="110" height="110"> </div>
-                  </div>
-                  <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                <div class="col-sm-5 col-md-4 col-lg-4">
+                    <img class="" src="images/test-tab.png">
                 </div>
-                <div class="card-body text-center justify-content-center">
-               <h5 class="card-title text-uppercase">MR ABC</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-            </div>
-          </div>
-        </div>
 
-        <div class="col-md-4" style="float:left">
-          <div class="card mb-5" style="cursor: pointer;">
-              <div class="card-header bg-white text-center border-0 ">
-                  <div class="row justify-content-center ">
-                    <div class="col"> <img class="align-self-center text-center rounded-circle outside img-fluid" src="images/test-logo.png" width="110" height="110"> </div>
-                  </div>
-                  <div><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+
+                <div class="col-sm col-md-5 col-lg-6">
+                    <h5 class="text-uppercase mt-3">e-fee collection service<br> via swiftpay360 </h5>
+                    <a class="btn not-allowed text-uppercase mb-1" onclick="return false;" href="#"
+                        role="button">www.swiftpay360.com</a>
                 </div>
-                <div class="card-body text-center justify-content-center">
-               <h5 class="card-title text-uppercase">MR ABC</h5>
-              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+
             </div>
-          </div>
         </div>
     </div>
-    <!--/.Second slide-->
 
-   
+    <div class="bg-img2">
+        <div class="container-fluid">
 
-  </div>
-</div> <!-- CAROUSEL WRAPPER ENDS -->
+            <div class="team mt-5 text-center text-uppercase">
+                <div class="row">
+                    <div class="col-sm col-md-3 col-lg-3">
+                        <h5>setup your online classroom today</h5>
+                        <a class="btn not-allowed" id="btn-single" onclick="return false;" href="#" role="button">single
+                            teacher</a>
+                        <a class="btn not-allowed" onclick="return false;" href="#" role="button">for school /
+                            institute</a>
+                    </div>
 
+                    <div class="col-sm col-md-6 col-lg-6 img-responsive">
+                        <img src="images/team.png" style="width: 100%;">
+                    </div>
 
+                    <div class="col-sm col-md-3 col-lg-3">
+                        <h5 class="h2"> create your very own personalized class</h5>
+                        <a class="btn  not-allowed" onclick="return false;" href="#" role="button">show demo</a>
+                    </div>
 
-<!-- TESTIMONAIL ENDS -->
-
-      <!-- BLOGS STARTS -->
-
-      <div class="blogs mt-5 mb-5">
-
-<h5 id="heading" class="text-center">OUR BLOGS</h5>
-
-       <div class="row mt-5 justify-content-center">
-        <div class="card-deck text-center">
-          <div class="card" >
-            <img class="card-img-top" src="images/icon1.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 style="font-weight: 700;" class="card-title text-center text-uppercase">latest tech blogs</h5>
-              <p style="font-weight: 400;" class="card-text">Get to know more about science. With all the revolutionary changes around the world. Tap on the button below.</p>
+                </div>
             </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/icon2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 style="font-weight: 700;" class="card-title text-center text-uppercase">latest articels</h5>
-              <p style="font-weight: 400;" class="card-text">Get to know more about science. With all the revolutionary changes around the world. Tap on the button below</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="images/icon3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 style="font-weight: 700;" class="card-title text-uppercase text-center">latest scientific news</h5>
-              <p style="font-weight: 400;" class="card-text">Get to know more about science. With all the revolutionary changes around the world.Tap on the button below</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div> <!-- BLOGS END -->
-    </div> <!-- CONTAINER ENDS -->
-  </div> <!-- <BACKGROUND IMAGE & CONTAINER FLUID ENDS> -->
-  
-
-
-  <footer class="page-footer font-small unique-color-dark mt-5">
-    <br>
-    <div class="container-fluid text-center text-md-left mt-2">
-
-      <div class="row mt-3">
-
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-
-          <h6 class="text-uppercase font-weight-bold">About Us
-            <hr class="deep-purple accent-2 mb-4 d-inline-block mx-auto"
-              style="width: 60px; border-top: 2px solid orange; position: absolute; margin-left: 7px !important; margin-top: 0.7rem;">
-          </h6>
-
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
-
-        </div>
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
-
-          <h6 class="text-uppercase font-weight-bold">Get In Touch
-            <hr class="deep-purple accent-2 mb-4 d-inline-block mx-auto"
-              style="width: 60px; border-top: 2px solid orange; position: absolute; margin-left: 7px !important ; margin-top: 0.7rem;">
-          </h6>
-
-          <p>
-            <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fa fa-envelope mr-3"></i> info@example.com</p>
-          <p>
-            <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-          <p>
-            <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
-
-        </div>
-        <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-
-          <h6 class="text-uppercase font-weight-bold">SOCIAL MEDIA
-            <hr class="deep-purple accent-2 mb-4 d-inline-block mx-auto"
-              style="width: 60px; border-top: 2px solid orange; position: absolute; margin-left: 7px !important; margin-top: 0.7rem;">
-          </h6>
-
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit.</p>
-
 
 
         </div>
-
-      </div>
-
     </div>
-  </footer>
-  <div class="footer-copyright text-center">© 2020 Copyright
-  </div>
+
+    <div class="bg-img2">
+        <div class="container" style="transform: scale(0.9);">
+
+            <div class="price-cards">
+                <div class="row mt-3 justify-content-center">
+                    <div class="card-deck text-center">
+                        <div class="card" id="whiteCard">
+                            <img class="card-img-top" src="images/icon1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-uppercase">Early-Bird Discount</h5>
+                                <p class="card-text">We offer this course for, PKR 2000 per month. Free mock-tests and
+                                    unlimited queries answered.</p>
+
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+
+                                <h4><strong>PKR 2000</strong></h4>
+
+                                <button class="btn text-center text-uppercase justify-content-center pt-2"
+                                    style="color: white; background-color: orange; border: 1px solid black; height: 50px; font-size: 20px;font-weight: 600;">subscribe</button>
+                            </div>
+
+                        </div>
+
+                        <div class="card" id="transform">
+                            <img class="card-img-top" src="images/icon2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-uppercase">Regular Offer</h5>
+                                <p class="card-text">This costs you around PKR 3000 per month. Free mock-tests and
+                                    unlimited queries answered.</p>
+
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+
+                                <h4><strong>PKR 3000</strong></h4>
+
+                                <button class="btn text-center text-uppercase justify-content-center"
+                                    style="color: #335781; background-color: white; border: 1px solid black; height: 50px;font-size: 20px; font-weight: 600;">subscribe</button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card" id="whiteCard">
+                            <img class="card-img-top" src="images/icon3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title text-uppercase text-center">Quarterly Offer</h5>
+                                <p class="card-text">This will cost you PKR 8000 for 3 months. Free mock-tests and
+                                    unlimited queries answered.</p>
+
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+                                <li class="pb-1" style="list-style-type: none;"><i class="fa fa-check"></i>features</a>
+                                </li>
+
+                                <h4><strong>PKR 8000</strong></h4>
+
+                                <button class="btn text-center text-uppercase justify-content-center"
+                                    style="color: white; background-color: orange; border: 1px solid black; height: 50px;font-size: 20px;font-weight: 600;">subscribe</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="bg-img2">
+        <div class="container">
+
+            <div class="testimonial">
+                <div class="my-5 justify-content-center">
+                    <div id="multi-item-example" class="carousel slide carousel-multi-item pointer-event"
+                        data-ride="carousel">
+
+                        <h5 class="text-uppercase text-center" id="heading">
+                            TESTIMONIALS
+                        </h5>
+
+                        <div class="controls-top text-center mb-5 mt-5">
+                            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
+                                    class="fa fa-chevron-left"></i></a>
+                            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                                    class="fa fa-chevron-right"></i></a>
+                        </div>
+
+                        <div class="carousel-inner card-deck mb-5" role="listbox">
+                            <div class="carousel-item active">
+
+                                <div class="col-lg-4 col-12 mt-5" style="float: left;">
+                                    <div class="card mt-3" style="cursor: pointer;">
+                                        <div class="card-header bg-white text-center border-0 ">
+                                            <div class="row justify-content-center ">
+                                                <div class="col"> <img
+                                                        class="align-self-center text-center rounded-circle outside img-fluid"
+                                                        src="images/test-logo.png" width="110" height="110"> </div>
+                                            </div>
+                                            <div class="row text-center name">
+                                                <div class="col">
+                                                    <h5 class="mb-2 profile-pic">MR.ABC</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0 text-center pb-3 ">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-8 col">
+                                                    <p class="bold mt-2"> <span><img class="img-fluid quotes"
+                                                                src="https://i.imgur.com/U20aFIt.png" width="40"
+                                                                height="40"></span> Growth of data is exponential and
+                                                        our ability to get true
+                                                        insight that matter was challenging with classic, traditional Bi
+                                                        tools. Vertix allow us to
+                                                        unserstand what is driving exceptions so we can take action
+                                                        <span><img class="img-fluid quotes-down"
+                                                                src="https://i.imgur.com/DPzmyiD.png" width="40"
+                                                                height="40">
+                                                        </span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mt-5 col-12 " style="float: left;">
+                                    <div class="card mt-3" style="cursor: pointer;">
+                                        <div class="card-header bg-white text-center border-0 ">
+                                            <div class="row justify-content-center ">
+                                                <div class="col"> <img
+                                                        class="align-self-center text-center rounded-circle outside img-fluid"
+                                                        src="images/test-logo.png" width="110" height="110"> </div>
+                                            </div>
+                                            <div class="row text-center name">
+                                                <div class="col">
+                                                    <h5 class="mb-2 profile-pic">MR.ABC</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0 text-center pb-3 ">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-8 col">
+                                                    <p class="bold mt-2"> <span><img class="img-fluid quotes"
+                                                                src="https://i.imgur.com/U20aFIt.png" width="40"
+                                                                height="40"></span> Growth of data is exponential and
+                                                        our ability to get true
+                                                        insight that matter was challenging with classic, traditional Bi
+                                                        tools. Vertix allow us to
+                                                        unserstand what is driving exceptions so we can take action
+                                                        <span><img class="img-fluid quotes-down"
+                                                                src="https://i.imgur.com/DPzmyiD.png" width="40"
+                                                                height="40"></span> </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-12 mt-5" style="float: left;">
+                                    <div class="card mt-3" style="cursor: pointer;">
+                                        <div class="card-header bg-white text-center border-0 ">
+                                            <div class="row justify-content-center ">
+                                                <div class="col"> <img
+                                                        class="align-self-center text-center rounded-circle outside img-fluid"
+                                                        src="images/test-logo.png" width="110" height="110"> </div>
+                                            </div>
+                                            <div class="row text-center name">
+                                                <div class="col">
+                                                    <h5 class="mb-2 profile-pic">MR.ABC</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0 text-center pb-3 ">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-8 col">
+                                                    <p class="bold mt-2"> <span><img class="img-fluid quotes"
+                                                                src="https://i.imgur.com/U20aFIt.png" width="40"
+                                                                height="40"></span> Growth of data is exponential and
+                                                        our ability to get true
+                                                        insight that matter was challenging with classic, traditional Bi
+                                                        tools. Vertix allow us to
+                                                        unserstand what is driving exceptions so we can take action
+                                                        <span><img class="img-fluid quotes-down"
+                                                                src="https://i.imgur.com/DPzmyiD.png" width="40"
+                                                                height="40">
+                                                        </span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <div class="col-lg-4 col-12 mt-5 " style="float: left;">
+                                    <div class="card mt-3" style="cursor: pointer;">
+                                        <div class="card-header bg-white text-center border-0 ">
+                                            <div class="row justify-content-center ">
+                                                <div class="col"> <img
+                                                        class="align-self-center text-center rounded-circle outside img-fluid"
+                                                        src="images/test-logo.png" width="110" height="110"> </div>
+                                            </div>
+                                            <div class="row text-center name">
+                                                <div class="col">
+                                                    <h5 class="mb-2 profile-pic">MR.ABC</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0 text-center pb-3 ">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-8 col">
+                                                    <p class="bold mt-2"> <span><img class="img-fluid quotes"
+                                                                src="https://i.imgur.com/U20aFIt.png" width="40"
+                                                                height="40"></span> Growth of data is exponential and
+                                                        our ability to get true
+                                                        insight that matter was challenging with classic, traditional Bi
+                                                        tools. Vertix allow us to
+                                                        unserstand what is driving exceptions so we can take action
+                                                        <span><img class="img-fluid quotes-down"
+                                                                src="https://i.imgur.com/DPzmyiD.png" width="40"
+                                                                height="40">
+                                                        </span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 mt-5 col-12 " style="float: left;">
+                                    <div class="card mt-3" style="cursor: pointer;">
+                                        <div class="card-header bg-white text-center border-0 ">
+                                            <div class="row justify-content-center ">
+                                                <div class="col"> <img
+                                                        class="align-self-center text-center rounded-circle outside img-fluid"
+                                                        src="images/test-logo.png" width="110" height="110"> </div>
+                                            </div>
+                                            <div class="row text-center name">
+                                                <div class="col">
+                                                    <h5 class="mb-2 profile-pic">MR.ABC</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0 text-center pb-3 ">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-8 col">
+                                                    <p class="bold mt-2"> <span><img class="img-fluid quotes"
+                                                                src="https://i.imgur.com/U20aFIt.png" width="40"
+                                                                height="40"></span> Growth of data is exponential and
+                                                        our ability to get true
+                                                        insight that matter was challenging with classic, traditional Bi
+                                                        tools. Vertix allow us to
+                                                        unserstand what is driving exceptions so we can take action
+                                                        <span><img class="img-fluid quotes-down"
+                                                                src="https://i.imgur.com/DPzmyiD.png" width="40"
+                                                                height="40"></span> </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-12 mt-5" style="float: left;">
+                                    <div class="card mt-3" style="cursor: pointer;">
+                                        <div class="card-header bg-white text-center border-0 ">
+                                            <div class="row justify-content-center ">
+                                                <div class="col"> <img
+                                                        class="align-self-center text-center rounded-circle outside img-fluid"
+                                                        src="images/test-logo.png" width="110" height="110"> </div>
+                                            </div>
+                                            <div class="row text-center name">
+                                                <div class="col">
+                                                    <h5 class="mb-2 profile-pic">MR.ABC</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-body pt-0 text-center pb-3 ">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-8 col">
+                                                    <p class="bold mt-2"> <span><img class="img-fluid quotes"
+                                                                src="https://i.imgur.com/U20aFIt.png" width="40"
+                                                                height="40"></span> Growth of data is exponential and
+                                                        our ability to get true
+                                                        insight that matter was challenging with classic, traditional Bi
+                                                        tools. Vertix allow us to
+                                                        unserstand what is driving exceptions so we can take action
+                                                        <span><img class="img-fluid quotes-down"
+                                                                src="https://i.imgur.com/DPzmyiD.png" width="40"
+                                                                height="40">
+                                                        </span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="bg-img2">
+        <div class="container">
+
+            <div class="blogs mt-5 mb-5">
+
+                <h5 id="heading" class="text-center">OUR BLOGS</h5>
+
+                <div class="row mt-5 justify-content-center">
+                    <div class="card-deck text-center">
+                        <div class="card">
+                            <img class="card-img-top" src="images/icon1.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 style="font-weight: 700;" class="card-title text-center text-uppercase">latest tech
+                                    blogs</h5>
+                                <p style="font-weight: 400;" class="card-text">Get to know more about science. With all
+                                    the revolutionary changes around the world. Tap on the button below.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/icon2.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 style="font-weight: 700;" class="card-title text-center text-uppercase">latest
+                                    articels</h5>
+                                <p style="font-weight: 400;" class="card-text">Get to know more about science. With all
+                                    the revolutionary changes around the world. Tap on the button below</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="images/icon3.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 style="font-weight: 700;" class="card-title text-uppercase text-center">latest
+                                    scientific news</h5>
+                                <p style="font-weight: 400;" class="card-text">Get to know more about science. With all
+                                    the revolutionary changes around the world.Tap on the button below</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
 
+        </div>
+    </div>
+
+    <!-- MAIN CONTAINER FLUID ENDS -->
+
+    <footer class="page-footer font-small unique-color-dark mt-5">
+        <br>
+        <div class="container-fluid text-center text-md-left mt-2">
+
+            <div class="row mt-3">
+
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">About Us
+                        <hr class="deep-purple accent-2 mb-4 d-inline-block mx-auto"
+                            style="width: 60px; border-top: 2px solid orange; position: absolute; margin-left: 7px !important; margin-top: 0.7rem;">
+                    </h6>
+
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                        consectetur
+                        adipisicing elit.</p>
+
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Get In Touch
+                        <hr class="deep-purple accent-2 mb-4 d-inline-block mx-auto"
+                            style="width: 60px; border-top: 2px solid orange; position: absolute; margin-left: 7px !important ; margin-top: 0.7rem;">
+                    </h6>
+
+                    <p>
+                        <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">SOCIAL MEDIA
+                        <hr class="deep-purple accent-2 mb-4 d-inline-block mx-auto"
+                            style="width: 60px; border-top: 2px solid orange; position: absolute; margin-left: 7px !important; margin-top: 0.7rem;">
+                    </h6>
+
+                    <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit.</p>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <div class="footer-copyright text-center">© 2020 Copyright
+    </div>
 
 </body>
 
 <script type="text/javascript">
-  $(document).ready(function () {
-    // executes when HTML-Document is loaded and DOM is ready
-    console.log("document is ready");
+    $(document).ready(function () {
+        // executes when HTML-Document is loaded and DOM is ready
+        console.log("document is ready");
 
 
-    $(".card").hover(
-      function () {
-        $(this).addClass('shadow-lg').css('cursor', 'pointer');
-      }, function () {
-        $(this).removeClass('shadow-lg');
-      }
-    );
+        $(".card").hover(
+            function () {
+                $(this).addClass('shadow-lg').css('cursor', 'pointer');
+            }, function () {
+                $(this).removeClass('shadow-lg');
+            }
+        );
 
-    // document ready  
-  });
+        // document ready  
+    });
 </script>
+
+</html>

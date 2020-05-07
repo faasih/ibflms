@@ -448,6 +448,10 @@ form label {
   color: white;
 }
 
+form input {
+	border-radius: 10px;
+}
+
 form .btn {
   background-color: orange;
   color: white;

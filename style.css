@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Quicksand:wght@700&display=swap");
 
+
+
 .nav-link {
   font-family: "Quicksand", sans-serif;
   color: orange !important;
@@ -10,6 +12,10 @@
 .navbar-light .navbar-nav .nav-link:hover {
   color: white !important;
 }
+
+/*.navbar-nav .active{
+    color: white;
+ }*/
 
 .navbar-brand {
   color: white;
@@ -27,6 +33,10 @@
 .list-inline-item a:hover {
   color: orange;
   text-decoration: none;
+}
+
+#m-top{
+  margin-top: 8%;
 }
 
 .heading h2 {
@@ -396,6 +406,7 @@ i.fa.fa-chevron-right {
   background-color: orange;
 }
 
+
 #heading{
  font-size: 40px;
     font-weight: 700;
@@ -530,8 +541,6 @@ i.fa.fa-quote-right {
     font-size: 13px;
     margin-left: 40px;
   }
-
-
 
   .team h5 {
     margin-top: 5%;
@@ -680,7 +689,7 @@ i.fa.fa-quote-right{
 
 
   .heading h2{
-    font-size: 50px !important;
+    font-size: 70px !important;
   }
 
   .heading p{

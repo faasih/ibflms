@@ -432,8 +432,14 @@ i.fa.fa-chevron-right {
 
 form {
   background-color: #335781;
-  padding: 10px 40px 10px 40px;
   font-family: "Quicksand", sans-serif;
+}
+
+form h4{
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 800;
+	color: white;
 }
 
 form label {
@@ -442,19 +448,19 @@ form label {
   color: white;
 }
 
-.form-row .btn {
+form .btn {
   background-color: orange;
   color: white;
   border-radius: 20px;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 20px;
 }
 
-.form-row .btn:hover {
+form .btn:hover {
   color: white;
   background-color: transparent;
   text-decoration: none;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 /*FORM CSS ENDS*/
@@ -566,6 +572,15 @@ i.fa.fa-quote-right {
   transform: none;
 }
 
+.label-padding{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+form button{
+	margin-left: 10px;
+}
+
 }
 
 /*PHONE END*/
@@ -670,6 +685,10 @@ form label {
     .bg-img{
     min-height: 800px;
   } 
+
+
+  
+
 }
 
 /* TABLET ENDS*/

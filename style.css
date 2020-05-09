@@ -13,6 +13,11 @@
   color: white !important;
 }
 
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
 /*.navbar-nav .active{
     color: white;
  }*/
@@ -128,11 +133,12 @@ i.fa.fa-quote-right {
 }
 
 .slider{
-	background-color: #D7DAE0;
+	background-image: linear-gradient(#FFFFFF,#F2F2F2);
 }
 
 .slider img{
-	width: 200px;
+	width: 10%;
+  height: auto;
 }
 
 .querySession h5 {
@@ -201,10 +207,10 @@ i.fa.fa-quote-right {
 .team .btn {
   background-color: #355178;
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Montserrat", sans-serif;
   border-radius: 20px;
-  margin: 10px;
+  margin-top: 10px;
 }
 
 .team .btn:hover {
@@ -341,7 +347,7 @@ font-size: 20px;
 #price-card-button-1{
       color: white;
     background-color: orange;
-    border: 1px solid black;
+    border: 1px solid white;
     height: 50px;
     font-size: 20px;
     font-weight: 600;
@@ -353,7 +359,7 @@ font-size: 20px;
 #price-card-button-2{
 color: #335781;
     background-color: #c9cdd6;
-    border: 1px solid black;
+    border: 1px solid #335781;
     height: 50px;
     font-size: 20px;
     position: absolute;
@@ -365,7 +371,7 @@ color: #335781;
 #price-card-button-3{
     color: white;
     background-color: orange;
-    border: 1px solid black;
+    border: 1px solid white;
     height: 50px;
     font-size: 20px;
     font-weight: 600;
@@ -379,9 +385,14 @@ color: #335781;
 }
 
 .blogs .card-text {
-  padding: 2% 10%;
-    font-size: 20px;
-    font-weight: 400;
+    padding: 2% 10%;
+    font-size: 15px;
+    color: lightgray;
+    font-weight: 300;
+}
+
+.blogs .card-footer h6{
+  font-size: 1.2rem;
 }
 
 .card-header .testimonail img {
@@ -465,16 +476,16 @@ i.fa.fa-chevron-right {
   transform: scale(0.9);
 }
 
-.blogs .card {
+.blogs .card{
   color: white;
   background-color: #335781;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
 #heading{
- font-size: 40px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 800;
     font-family: 'Poppins', sans-serif !important;
     color: black;
 }
@@ -651,25 +662,25 @@ form button{
 
 #price-card-button-1 {
     position: relative;
-    margin-left: 0%;
-    margin-top: -13%;
+    margin-left: 0% !important;
+    margin-top: -11% !important;
     margin-bottom: 5%;
-    width: 80%;
+    width: 80% !important;
 }
 
 #price-card-button-2 {
     position: relative;
-    margin-left: 0%;
-    margin-top: -13%;
+    margin-left: 0% !important;
+    margin-top: -13% !important;
     margin-bottom: 5%;
-    width: 80%;
+    width: 80% !important;
 }
 
 #price-card-button-3 {
     position: relative;
-    margin-left: 0%;
-    margin-top: -12%;
-    width: 80%;
+    margin-left: 0% !important;
+    margin-top: -12% !important;
+    width: 80% !important;
 }
 
 .blogs h4{
@@ -869,7 +880,7 @@ i.fa.fa-quote-right{
 }
 
 .assignment h5 {
-    padding-top: 86px !important;
+    padding-top: 30% !important;
     margin-top: 0%;
     margin-left: 0%;
     font-size: 36px;
@@ -892,10 +903,11 @@ i.fa.fa-quote-right{
     /* font-weight: 500; */
   }
 
-  .e-fee h5 {
-    font-size: 2.5rem;
+ .e-fee h5 {
+    font-size: 43px;
     padding-left: 0px;
-  }
+    margin-top: 10% !important;
+}
 
   .e-fee .btn {
     font-size: 1.5rem;
@@ -903,8 +915,11 @@ i.fa.fa-quote-right{
   }
 
   .team h5 {
-    margin-top: 60%;
-    font-size: 25px;
+     margin-top: 74%;
+    font-size: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
   }
 
   #btn-single {

@@ -42,8 +42,8 @@
 
                 <div class="collapse navbar-collapse mt-2" id="navbarContent">
                     <ul class="navbar-nav my-auto mr-auto text-uppercase">
-                        <li class="nav-item active">
-                            <a class="nav-link " href="index.html">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="teacher.html">Teacher</a>
@@ -751,8 +751,8 @@
                                 <p class="card-text">Get to know more about science. With all
                                     the revolutionary changes around the world.Tap on the button below</p>
                             </div>
-                            <div class="card-footer" style="background-color: #335781;">
-                                <img class="align-left" style="margin-left: 20%; margin-top: 4%;" src="images/test-logo.png" width="40px" height="40px">
+                            <div class="card-footer">
+                                <img class="align-left" src="images/test-logo.png">
                                 <div class="text-uppercase text-center" style="float: right;margin-right: 20%;
     margin-top: 4%;">
                                 <h6 class="text-uppercase">Leonardo</h6>
@@ -844,17 +844,9 @@
         // document ready  
     });
 
-// var header = document.getElementByClassName("navbar");
-// var btns = header.getElementsByClassName("nav-item");
-// for (var i = 0; i < btns.length; i++) {
-//   btns[i].addEventListener("click", function() {
-//   var current = document.getElementsByClassName("active");
-//   if (current.length > 0) { 
-//     current[0].className = current[0].className.replace(" active", "");
-//   }
-//   this.className += " active";
-//   });
-// }
+$(function() {
+  $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+});
 
 </script>
 

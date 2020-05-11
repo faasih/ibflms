@@ -13,14 +13,18 @@
   color: white !important;
 }
 
+/*.navbar-nav .nav-link a:hover {
+  color: white !important;
+}*/
+
 .no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
 }
 
-/*.navbar-nav .active{
-    color: white;
- }*/
+.active {
+    color: white !important;
+ }
 
 .navbar-brand {
   color: white;
@@ -503,6 +507,27 @@ i.fa.fa-chevron-right {
 	pointer-events: none;
 }
 
+.card-footer {
+  background-color: #335781;
+}
+
+.card-footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20%; 
+  margin-top: 4%;
+}
+
+.card-details{
+  float: right;
+  margin-right: 20%;
+  margin-top: 4%;
+}
+
+.card-details p small {
+  line-height: 0px;
+}
+
 /*CSS FOR CARDS ENDS
 
 /*FORM CSS STARTS*/
@@ -687,6 +712,32 @@ form button{
   padding: 10% 2%;
   letter-spacing: 5px;
 }
+
+.slider img {
+    width: 16%;
+ }
+
+#heading{
+  font-size: 45px;
+} 
+
+.card-footer img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20%; 
+  margin-top: 3%;
+}
+
+.card-details{
+  float: right;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+.blogs .card-footer h6 {
+    font-size: 0.9rem;
+}
+
 }
 
 /*PHONE END*/
@@ -786,6 +837,11 @@ form label {
     font-size: 70px;
     margin-top: 30%;
   }
+
+.blogs .card-text {
+  padding: none;
+}
+
 
 }
 

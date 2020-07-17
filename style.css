@@ -240,16 +240,15 @@ footer h6 {
 }
 
 footer p {
-  font-weight: 600;
+  font-weight: 100;
   color: white;
 }
 
 .footer-copyright {
     color: white;
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     background-color: orange;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*CSS FOR CARDS STARTS*/
@@ -399,86 +398,10 @@ color: #335781;
   font-size: 1.2rem;
 }
 
-.card-header .testimonail img {
-  border: 5px solid white !important;
-}
-
 .btn-floating{
       bottom: 100%;
 }
 
-.testimonial .outside {
-  position: inherit;
-  top: -50%;
-}
-
-.testimonial{
-	background-color: #EAEAEA;
-  pointer-events: none;
-}
-
-.testimonial .card {
-  transition: 0.8s;
-  height: auto;
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-}
-
-
-.testimonial .card-header {
-  border-radius: 20px !important;
-}
-
-.testimonial .bold {
-    font-weight: 500;
-    color: #335781;
-}
-
-.testimonial .fa {
-  color: rgb(174, 178, 219);
-  cursor: pointer;
-   font-size: 20px;
-}
-
-i.fa.fa-chevron-left {
-    font-size: 30px;
-    color: #335781;
-}
-
-i.fa.fa-chevron-right {
-    font-size: 30px;
-    color: #335781;
-}
-
-
-
-
-.testimonial .profile-pic {
-  margin-bottom: -5px !important;
-}
-
-.testimonial .quotes {
-  position: relative;
-  top: -10px;
-}
-
-.testimonial .quotes-down {
-  position: relative;
-  top: -4 px;
-}
-
-
-.testimonial .card-footer .fa {
-  font-size: 20px !important;
-}
-
-.testimonial .name {
-  margin-top: -50px !important;
-}
-
-.testimonial .container-fluid:hover .card:not(:hover) {
-  transform: scale(0.9);
-}
 
 .blogs .card{
   color: white;
@@ -529,11 +452,119 @@ i.fa.fa-chevron-right {
 }
 
 /*CSS FOR CARDS ENDS
+*/
+
+
+/*FACULTY
+*/
+.f_members .card{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.f_members .card img{
+  padding: 30px 0px 10px 0px;
+}
+
+.f_members p{
+  font-size: 13px;
+  padding: 05px 20px 10px 20px;
+}
+
+.f_members .card-title{
+  letter-spacing: 0px;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: 'Poppins', sans-serif;
+}
+
+.f_members .card-img-top {
+    width: 100px !important;
+    height: auto !important;
+    margin: 0 auto !important;
+}
+
+/*FACULTY
+*/
+
+
+
+
+/*TESTIMONIALS
+*/
+.testimonial-section {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.testimonial-section h1 {
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.testimonial-pics {
+  padding: 40px 0;
+}
+
+.testimonial-pics img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 20px;
+  filter: grayscale(100%);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.testimonial-pics img:hover, .testimonial-pics img.active {
+  filter: none;
+}
+
+
+.testimonial-contents {
+  max-width: 600px;
+  margin: auto;
+}
+
+.testimonial {
+  display: none;
+}
+
+.testimonial.active {
+  display: block;
+  color: gray !important;
+  font-weight: 800;
+}
+
+.testimonial p {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.testimonial .description {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 15px;
+}
+
+/*TESTIMONIALS
+*/
+
+
+
 
 /*FORM CSS STARTS*/
 
 form {
-  background-color: #335781;
+  background-color: #6589b3;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -551,7 +582,11 @@ form label {
 }
 
 form input {
-	border-radius: 10px;
+	border-radius: 30px;
+}
+
+.form-control{
+  border-radius: 30px !important;
 }
 
 form .btn {
@@ -560,16 +595,42 @@ form .btn {
   border-radius: 20px;
   font-weight: 500;
   font-size: 20px;
+  width: 100%;
 }
 
 form .btn:hover {
-  color: white;
-  background-color: transparent;
+  color: orange;
+  background-color: white;
   text-decoration: none;
-  border: 1px solid white;
+  border: 1px solid transparent;
 }
 
 /*FORM CSS ENDS*/
+
+
+/*Slider*/
+
+  .vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+-webkit-transform: translate3d(0,-100%, 0);
+        transform: translate3d(0,-100%, 0);
+}
+
+/*Slider*/
+
+
 
 /*ALL MEDIA QUERIES HERE*/
 
